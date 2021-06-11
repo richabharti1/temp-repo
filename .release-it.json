@@ -1,8 +1,7 @@
 {
   "github": {
     "release": true,
-    "releaseName": "Release ${version}",
-    "tokenRef": "process.env.GITHUB_TOKEN"
+    "releaseName": "Release ${version}"
   },
   "npm": {
     "publish": false
