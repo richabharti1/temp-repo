@@ -3,7 +3,7 @@
     "release": true,
     "releaseName": "Release ${version}",
     "tokenRef": "GITHUB_TOKEN",
-    "assets": ["build"]
+    "assets": null
   },
   "npm": {
     "publish": false
