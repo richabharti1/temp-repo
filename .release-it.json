@@ -10,6 +10,7 @@
   },
   "git": {
     "requireCleanWorkingDir": false,
-    "requireBranch": "master"
+    "requireBranch": "master",
+    "commitMessage": "Release ${version}"
   }
 }
