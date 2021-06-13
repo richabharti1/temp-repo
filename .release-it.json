@@ -1,12 +1,16 @@
 {
   "github": {
     "release": true,
-    "releaseName": "Release ${version}"
+    "releaseName": "Release ${version}",
+    "tokenRef": "GITHUB_TOKEN"
   },
   "npm": {
     "publish": false
   },
   "git": {
     "requireBranch": "master"
+  },
+  "hooks": {
+    "after:git:release": "echo After git push, before github release"
   }
 }
