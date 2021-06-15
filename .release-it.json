@@ -21,4 +21,5 @@
     "after:bump": ["npm run build", "npm run create-zip"],
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   }
+
 }
