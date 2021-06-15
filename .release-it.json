@@ -14,7 +14,8 @@
     "commitMessage": "Release ${version}",
     "pushRepo": "origin",
     "tagName": "v${version}",
-    "requireCommits": true
+    "requireCommits": true,
+    "assets": ["dist/*.zip"]
   },
   "hooks": {
     "after:git:release": "echo After git push, before github release;",
