@@ -3,7 +3,7 @@
     "release": true,
     "releaseName": "Release ${version}",
     "tokenRef": "GITHUB_TOKEN",
-    "assets": null
+    "assets": "dist.zip"
   },
   "npm": {
     "publish": false
@@ -14,8 +14,7 @@
     "commitMessage": "Release ${version}",
     "pushRepo": "origin",
     "tagName": "v${version}",
-    "requireCommits": true,
-    "assets": ["dist/*.zip"]
+    "requireCommits": false
   },
   "hooks": {
     "after:git:release": "echo After git push, before github release;",
