@@ -1,6 +1,6 @@
 {
   "name": "v3-extension-react-template",
-  "version": "0.3.18",
+  "version": "0.3.19",
   "description": "Boilerplate for chrome extension with manifest v3",
   "license": "UNLICENSED",
   "repository": {
@@ -11,8 +11,7 @@
     "build": "node utils/build.js",
     "start": "node utils/webserver.js",
     "create-zip": "node utils/create-zip.js",
-    "release": "dotenv release-it --",
-    "try": "rm -f abcd "
+    "release": "dotenv release-it --"
   },
   "dependencies": {
     "@hot-loader/react-dom": "^17.0.1",
